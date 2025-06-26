@@ -19,6 +19,5 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-hide:
-  - toc
+
 
