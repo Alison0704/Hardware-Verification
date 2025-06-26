@@ -15,9 +15,31 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+nav:
+  - Home: index.md
+  - VHDL:
+      - Basics: vhdl/basics.md
+      - Modules: vhdl/modules.md
+      - Testbenches: vhdl/testbenches.md
+  - Verilog:
+      - Basics: verilog/basics.md
+      - Modules: verilog/modules.md
+      - Testbenches: verilog/testbenches.md
+  - SystemVerilog:
+      - Interfaces: systemverilog/interfaces.md
+      - Assertions: systemverilog/assertions.md
+      - Coverage: systemverilog/coverage.md
+  - UVM:
+      - Intro to UVM: uvm/intro.md
+      - Testbench Architecture: uvm/testbench.md
+      - Factory & Phases: uvm/factory_phases.md
+      - Sequences & Drivers: uvm/sequences.md
+  - Projects:
+      - ALU: projects/alu.md
+      - Traffic Jam Control: projects/traffic.md
+      - FIFO Verification: projects/fifo.md
+      - AXI Interface: projects/axi.md
+  - Resume: resume.md
 
-  font:
-    text: Roboto
-    code: Roboto Mono
 
 
